@@ -15,15 +15,18 @@ Window {
     Text {
         anchors.centerIn: parent
         font.pixelSize: 50
-        text: logika.czyOdwrocona ? logika.aktualneTlumaczenie : logika.aktualneSlowo
-    }
+        text: logika.koniecNauki
+                      ? "Gratulacje!\nKoniec na dziś."
+                      : (logika.czyOdwrocona ? logika.aktualneTlumaczenie : logika.aktualneSlowo)
 
+                horizontalAlignment: Text.AlignHCenter
+    }
     Row {
         anchors.bottom: parent.bottom
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottomMargin: 30
         spacing: 20
-
+        visible: !logika.koniecNauki
         Button {
             text: "Odwróć"
             width: 120
