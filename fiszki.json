@@ -1,0 +1,22 @@
+[
+  { "id": 1, "slowo": "좋아요", "tlumaczenie": "Dobry" },
+  { "id": 2, "slowo": "나빠요", "tlumaczenie": "Zły" },
+  { "id": 3, "slowo": "커요", "tlumaczenie": "Duży" },
+  { "id": 4, "slowo": "작아요", "tlumaczenie": "Mały" },
+  { "id": 5, "slowo": "길어요", "tlumaczenie": "Długi" },
+  { "id": 6, "slowo": "짧아요", "tlumaczenie": "Krótki" },
+  { "id": 7, "slowo": "비싸요", "tlumaczenie": "Drogi" },
+  { "id": 8, "slowo": "싸요", "tlumaczenie": "Tani" },
+  { "id": 9, "slowo": "바빠요", "tlumaczenie": "Zajęty" },
+  { "id": 10, "slowo": "맛있어요", "tlumaczenie": "Smaczny" },
+  { "id": 11, "slowo": "어려워요", "tlumaczenie": "Trudny" },
+  { "id": 12, "slowo": "쉬워요", "tlumaczenie": "Łatwy" },
+  { "id": 13, "slowo": "멀어요", "tlumaczenie": "Daleko" },
+  { "id": 14, "slowo": "가까워요", "tlumaczenie": "Blisko" },
+  { "id": 15, "slowo": "깨끗해요", "tlumaczenie": "Czysty" },
+  { "id": 16, "slowo": "더러워요", "tlumaczenie": "Brudny" },
+  { "id": 17, "slowo": "예뻐요", "tlumaczenie": "Ładny" },
+  { "id": 18, "slowo": "친절해요", "tlumaczenie": "Uprzejmy" },
+  { "id": 19, "slowo": "조용해요", "tlumaczenie": "Cichy" },
+  { "id": 20, "slowo": "재미있어요", "tlumaczenie": "Ciekawy" }
+]

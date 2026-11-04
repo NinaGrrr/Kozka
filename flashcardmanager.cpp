@@ -5,7 +5,7 @@
 FlashcardManager::FlashcardManager(QObject *parent)
     : QObject(parent), m_aktualnyIndeks(0), m_czyOdwrocona(false), m_koniecNauki(false)
 {
-    wczytajZPliku("C:/Users/karok/Desktop/Pryff/Projekty_wy/Kozka/fiszki.json");
+    wczytajZPliku(":/fiszki.json");
 }
 
 // --- GETTERY (QML używa ich, gdy odbierze sygnał NOTIFY) ---
