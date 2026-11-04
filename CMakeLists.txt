@@ -20,6 +20,9 @@ qt_add_executable(appKozka
 
 )
 
+set_target_properties(appKozka PROPERTIES
+   QT_ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
+
 qt_add_qml_module(appKozka
     URI Kozka
     QML_FILES
