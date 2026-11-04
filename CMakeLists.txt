@@ -15,14 +15,15 @@ endif()
 
 qt_add_executable(appKozka
     main.cpp
+    flashcardmanager.h
+    flashcardmanager.cpp
+
 )
 
 qt_add_qml_module(appKozka
     URI Kozka
     QML_FILES
         Main.qml
-        SOURCES flashcardmanager.h flashcardmanager.cpp
-        RESOURCES Zasoby.qrc
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -35,7 +36,7 @@ set_target_properties(appKozka PROPERTIES
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
-
+qt_add_resources(appKozka "dane_json" PREFIX "/" FILES fiszki.json)
 target_link_libraries(appKozka
     PRIVATE Qt6::Quick
 )
