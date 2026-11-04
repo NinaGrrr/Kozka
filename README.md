@@ -1,4 +1,4 @@
-# Kozka
+# 🐐 Kozka
 *A lightweight, optimized Korean vocabulary learning app with strict backend/UI separation.*
 
 Kozka is a personal passion project born out of a simple need: I wanted a foreign language learning app tailored exactly to my own preferences. At the same time, it serves as a practical, hands-on exercise in the complete, end-to-end process of designing, building, and deploying a cross-platform application.
